@@ -17,9 +17,9 @@ git push origin --tags
 git tag -d tag_name
 git push remote_name -d << tag_name >>
 git push origin :refs/tags/tag_name --> To remove remote tag from local
-git show tagename
-git diff tagename 
-
+git show tagname
+git diff tagname 
+git checkout tagname
 git log 
 git log -number
 git log --author name*
