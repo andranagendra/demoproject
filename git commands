@@ -3,6 +3,8 @@ git brach  -c old_name new_name
 git branch -m old_name new_name 
 git branch -d branch_name --> To delete the merged brach
 git branch -delete branch_name --> to delete the branch
+git pushremote_name --delete branch_name -->To delete the remote branch 
+git 
 git checkout -b <local-branch-name> <remote-name>/<remote-branch-name>
 git push 
 git merge branch_name
