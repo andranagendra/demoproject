@@ -15,5 +15,16 @@ git rebase branch_name
 git log 
 git log -number
 git log --author name*
+git stash --> To create the stash
+git stash list
+git stash show <stash-name>
+git stash pop --> To delete the stash and file cpme back normal state
+git stash clear --> delete the stash
+git stash drop
+git stash apply
+git stash branch <branch_name>
+
+git merage <branch-name> --squash && git commit -no
+
 
 
