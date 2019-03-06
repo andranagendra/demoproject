@@ -1,0 +1,17 @@
+#!/bin/env groovy
+
+pipeline {
+
+     agent any
+     tools {
+              maven 'M2_HOME'
+           }
+     
+     stages {
+               stage('build') {
+                                 steps {      echo "Now creating the package"
+                                              sh 'mvn install'
+                                        }
+                              }
+            }
+}
