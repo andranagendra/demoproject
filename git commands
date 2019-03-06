@@ -1,0 +1,30 @@
+git brach <name> -------
+git brach  -c old_name new_name 
+git branch -m old_name new_name 
+git branch -d branch_name --> To delete the merged brach
+git branch -delete branch_name --> to delete the branch
+git pushremote_name --delete branch_name -->To delete the remote branch 
+git 
+git checkout -b <local-branch-name> <remote-name>/<remote-branch-name>
+git push 
+git merge branch_name
+git push remote_name <branch_name>
+git push rm
+git rebase branch_name
+
+git log 
+git log -number
+git log --author name*
+git stash --> To create the stash
+git stash list
+git stash show <stash-name>
+git stash pop --> To delete the stash and file cpme back normal state
+git stash clear --> delete the stash
+git stash drop
+git stash apply
+git stash branch <branch_name>
+
+git merage <branch-name> --squash && git commit -no
+
+
+
