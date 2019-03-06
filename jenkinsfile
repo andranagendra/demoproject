@@ -8,10 +8,15 @@ pipeline {
            }
      
      stages {
+               stage('dev') {
+                                 steps {      echo "Now creating the package"
+                                              sh 'mvn --version'
+                                       }
+                              }
                stage('build') {
                                  steps {      echo "Now creating the package"
                                               sh 'mvn install'
-                                        }
+                                       }
                               }
             }
 }
