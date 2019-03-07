@@ -18,5 +18,9 @@ pipeline {
                                               sh 'mvn install'
                                        }
                               }
+              stage('deploy') {
+                   steps {     
+                        echo "deploy the warfile to tomacat server"
+                        sh   'mvn tomcat7:deply'
             }
 }
