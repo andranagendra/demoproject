@@ -21,7 +21,7 @@ pipeline {
               stage('deploy') {
                    steps {     
                         echo "deploy the warfile to tomacat server"
-                        sh   'mvn tomcat7:deply'
+                        sh   'mvn tomcat7:redeply'
                         }
               }                   
             }
